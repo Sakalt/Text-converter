@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>テキストコンバーター</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Text Converter</h1>
+        <textarea id="inputText" placeholder="テキストを入力..."></textarea>
+        <div class="button-container">
+            <button onclick="convertText('armenian')">アルメニア文字へ</button>
+            <button onclick="convertText('georgian')">グルジア文字へ</button>
+            <button onclick="convertText('burmese')">ビルマ文字へ</button>
+            <button onclick="convertText('thai')">タイ文字へ</button>
+            <button onclick="convertText('persian')">ペルシャ文字へ</button>
+        </div>
+        <textarea id="outputText" placeholder="変換されたテキスト"></textarea>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
